@@ -1,0 +1,113 @@
+/* Task: Style the body, unorderd list and html file */
+body, ul, html{
+  height: 
+  margin:
+  font-size: 
+  font-family: "Lato", sans-serif;
+  font-weight: 
+  line-height: 1.8em; 
+  color:
+  list-style: 
+}
+
+/* Task: Style paragraph images */
+/* Hint: set fixed for background-attachment
+    fixed = parallax
+    scroll = normal
+*/
+.pimg1, .pimg2, .pimg3{
+  position: 
+  opacity: 
+  background-position: 
+  background-size: 
+  background-repeat: 
+
+  background-attachment: 
+}
+
+.pimg1{
+  background-image: url('');
+  min-height:  
+}
+
+.pimg2{
+  background-image: url('');
+  min-height:  
+}
+
+.pimg3{
+  background-image: url('');
+  min-height:  
+}
+
+/* Task: Style sections */
+.section{
+  text-align: 
+  padding: 
+}
+
+.section-light{
+  background-color: 
+  color:
+}
+
+.section-dark{
+  background-color: 
+  color:
+}
+
+/* Task: Style paragraph text */
+.ptext{
+  position: 
+  top: 
+  width: 
+  text-align: center;
+  color: 
+  font-size:
+  letter-spacing:8px;
+  text-transform: 
+}
+
+.ptext .border{
+  background-color: 
+  color: 
+  padding: 20px;
+}
+
+.ptext .border.trans{
+  background-color: 
+}
+
+/* Task: Style navigation bar attributes */
+.navbar{
+  width: 
+  height:
+  background-color: 
+  padding: 
+  box-shadow: 0 1px 3px transparent, 0 2px 2px transparent, 0 0 2px transparent;
+}
+
+.navbar-nav-right{
+  text-transform: uppercase;
+}
+
+.navbar a {
+  color:
+  text-decoration:
+}
+
+.navbar a:hover {
+  color:
+}
+
+.navbar ul {
+  display:flex;
+}
+
+.navbar li {
+  margin: 0 15px;
+  font-weight:
+}
+
+/* Extra Task: remove parallax effect on mobile devices */
+
